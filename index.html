@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggo Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/icon" href="images/favicon2.icon">
+</head>
+<body>
+    <!-----Navigation-->
+    <div class="bg-indigo-700 w-full h-20 flex justify-between">
+        <div class="flex justify-center items-center ml-4">
+            <img class="w-14 h-14" src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-256.png" alt="mountain">
+            <p class="text-indigo-200 ml-4 cursor-pointer hover:underline">Home</p>
+            <p class="text-indigo-200 ml-4 cursor-pointer hover:underline">About</p>
+        </div>
+        <div class="md:hidden flex justify-center items-center mr-4" id="toggle">
+            <button class="outline-none border border-indigo-500 rounded focus:outline-none focus:border focus:border-indigo-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg> 
+            </button>
+        </div>
+
+        <div class="hidden md:flex md:justify-center md:items-center md:mr-8">
+            <p class="mr-6 text-indigo-200 cursor-pointer hover:underline">Login</p>
+            <p><a href="" class="px-4 py-1 rounded bg-yellow-300 hover:bg-yellow-500">Sign Up</a></p>
+        </div>
+    </div>
+    <div class="bg-indigo-400 hidden md:hidden items-end text-right py-2" id="menu">
+        <div class="w-full px-4">
+            <ul>
+                <li class="text-indigo-200 cursor-pointer text-base hover:underline block">
+                    Login
+                </li>
+                <li class="text-indigo-200 cursor-pointer text-base hover:underline block">
+                    Sign Up
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-----Features---->
+    <div class="bg-indigo-500 md:flex justify-center py-20 px-10 text-indigo-100">
+
+    <div class="md:w-1/2 flex justify-center items-center mb-8 md:mb-0"> 
+        <div class="w-96 h-full text-center">
+        <h1 class="text-2xl md:text-4xl lg:text-5xl text-white font-sans">Welcome to Doggo City!</h1>
+        <p class="mt-6 text-base md:text-lg lg:text-xl">There is never a sad day here!</p>
+        <div class="flex justify-center mt-6">
+        <a href="" class="text-sm lg:text-base px-3 py-1 md:px-4 md:py-2 bg-gray-400 rounded text-gray-800 hover:bg-gray-300">Learn More</a>
+        <a href="" class="text-sm lg:text-base px-3 py-1 ml-8 md:px-4 md:py-2 bg-yellow-500 rounded text-yellow-900 hover:bg-yellow-400">Get Started</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="md:w-1/2 flex justify-center items-center">
+        <div class="md:w-96 md:h-auto">
+        <img class="md:w-auto md:h-72 w-96 h-64 shadow-lg rounded-lg transform hover:scale-105 transition ease-in duration-200" src="https://t1.ea.ltmcdn.com/en/images/4/9/0/6_chesapeake_bay_retriever_94_6_600.jpg" alt="dog">
+        </div>
+    </div>
+
+    </div>
+    <!-----Picture of Doggos-->
+    <div class="md:flex bg-indigo-800 py-20 justify-center md:items-center text-white">
+        <div class="md:w-auto md:h-auto text-center md:mr-4">
+            <div class="flex justify-center items-center">
+            <img class="w-96 h-64 md:w-52 md:h-40 border-2 border-indigo-500 rounded-lg transform hover:scale-105 transition ease-in duration-200" src="https://hips.hearstapps.com/countryliving.cdnds.net/17/47/1511194376-cavachon-puppy-christmas.jpg" alt="puppy1">
+            </div>
+            <p class="mt-4">Cuddles!</p>
+        </div>
+        <div class="mt-4 text-center md:mt-12">
+            <div class="flex justify-center items-center">
+            <img class="w-96 h-64 md:w-52 md:h-40 border-2 border-indigo-500 rounded-lg transform hover:scale-105 transition ease-in duration-200" src="https://dogtime.com/assets/uploads/2011/03/puppy-development.jpg" alt="puppy2">
+            </div>
+            <p class="mt-4">Smiles!</p>
+        </div>
+        <div class="mt-4 md:mt-0 text-center md:ml-4">
+            <div class="flex justify-center items-center">
+            <img class="w-96 h-64 md:w-52 md:h-40 border-2 border-indigo-500 rounded-lg transform hover:scale-105 transition ease-in duration-200" src="https://www.petmd.com/sites/default/files/styles/article_image/public/puppy-laying-down-outside.jpg?itok=ClNNCi52" alt="puppy3">
+            </div>
+            <p class="mt-4">Games!</p>
+        </div>
+        <div  class="mt-4 text-center md:ml-4 md:mt-12">
+            <div class="flex justify-center items-center">
+            <img class="w-96 h-64 md:w-52 md:h-40 border-2 border-indigo-500 rounded-lg transform hover:scale-105 transition ease-in duration-200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ZDExBMWeAzsR7zszH2Q4k7cPYYh2imMkdm501EEdOVFcg7VlXdb9h7uWFYjgyN5zLA4&usqp=CAU" alt="puppy4">
+            </div>
+            <p class="mt-4">Swims!</p>
+        </div>
+    </div>
+
+    <!-----Footer-->
+    <div class="bg-indigo-900 md:flex justify-between p-10 text-indigo-100">
+        <div class="md:w-1/2">
+        <p class="text-base md:text-lg">Join the Newsletter</p>
+        <form action="" class="flex">
+            <input type="text" class="w-full rounded-l py-2 px-3 md:py-3 md:px-4 outline-none text-black focus:bg-indigo-100">
+            <button class="rounded-r bg-red-300 text-red-800 px-3 md:px-4">Join</button>
+        </form>
+        </div>
+
+        <div class="mt-8 md:mt-0 flex justify-center items-center">
+            <p class="text-base md:text-lg">Copyright &copy; Doggos 2021 - Infinity</p>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
